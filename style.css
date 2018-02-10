@@ -1,11 +1,29 @@
+body {
+	text-align: center;
+}
+
+header {
+	border: 3px solid #ffffff;
+	background-position: center top;
+	background-size: 300px 100px;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit;
+}
+
+html {
+	background: lightpink;
+
+}
 nav ul {
 	list-style-type: none;
 }
 
 nav ul li {
 	display: inline;
-	border: 1px solid grey;
-	padding: ;
+	padding: 10px 0 100px 0;
+	margin: 100px;
 }
 
 span {
@@ -16,10 +34,23 @@ span {
 	width: 30px;
 }
 
-p {
-	margin:30%;
-}
-
 html {
 	box-sizing: border-box;
+}
+
+li, h2 {
+	transition: color ls;
+}
+
+li:hover, h2:hover {
+	color: #ffffff
+}
+
+h1 {
+	text-align: center;
+	color: #ffffff;
+}
+
+h2, p {
+	text-align: center;
 }
